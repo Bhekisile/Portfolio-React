@@ -25,11 +25,11 @@ const skillList = [
   },
   {
     skillName: 'Ruby',
-    skillUrl: '',
+    skillUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/portfolio/src/assets/ruby.png?raw=true',
   },
   {
     skillName: 'Ruby on Rails',
-    skillUrl: '',
+    skillUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/portfolio/src/assets/rails.png?raw=true',
   },
 ];
 
