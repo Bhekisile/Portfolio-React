@@ -15,7 +15,7 @@ function Skills() {
       />
       <div className="skill-card-container">
         {/* {
-        skillList.map(({skillName, skillUrl}, index) =>  <SkillCard key={index} 
+        skillList.map(({skillName, skillUrl}, index) =>  <SkillCard key={index}
         skillName={skillName} skillUrl={skillUrl}
           />)
       } */}
