@@ -1,10 +1,11 @@
 import React from 'react';
 import './Skills.css';
+import { v4 as uuidv4 } from 'uuid';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-// import skillsVector from "./../../assets/skills_vector.png";
-// import {skillList} from "./../../assets/skillsData";
-// import SkillCard from './SkillCard';
+// import skillsVector from '../assets/skills_vector.png';
+import skillList from '../../assets/skillsData';
+import SkillCard from './SkillCard';
 
 function Skills() {
   return (
@@ -14,22 +15,29 @@ function Skills() {
         subHeading="Passionate about new technologies, I keep exploring stuff. Here's the tech stack I've worked with!"
       />
       <div className="skill-card-container">
-        {/* {
-        skillList.map(({skillName, skillUrl}, index) =>  <SkillCard key={index}
-        skillName={skillName} skillUrl={skillUrl}
-          />)
-      } */}
+        {
+        skillList.map(({ skillName, skillUrl }) => (
+          <SkillCard
+            key={uuidv4()}
+            skillName={skillName}
+            skillUrl={skillUrl}
+          />
+        ))
+}
       </div>
       <Footer
         phrase="Get in "
         link="touch."
         toAddress="/contact"
       />
-      <div className="skills-vector-frame">
-        {/* <img src={skillsVector} alt="skill-vector"
-        className='skills-vector' loading="lazy" */}
-        {/* /> */}
-      </div>
+      {/* <div className="skills-vector-frame">
+        <img
+          src={skillsVector}
+          alt="skill-vector"
+          className="skills-vector"
+          loading="lazy"
+        />
+      </div> */}
     </div>
   );
 }

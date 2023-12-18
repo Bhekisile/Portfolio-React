@@ -8,6 +8,8 @@
   padding: 100px 10%;
   box-sizing: border-box;
   min-height: 100vh;
+  margin-left: 15%;
+  margin-top: 0;
 }
 
 .header-text {
