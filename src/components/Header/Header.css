@@ -1,4 +1,4 @@
-.header-container{
+.header-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,7 +6,8 @@
   width: 60%;
   align-self: center;
 }
-.header-container > h1{
+
+.header-container > h1 {
   font-style: normal;
   font-weight: 500;
   font-size: 2.9rem;
@@ -16,23 +17,24 @@
   color: #000;
   letter-spacing: 0.2px;
 }
-.header-container > p{
+
+.header-container > p {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 1.4rem;
   line-height: 1.4rem;
   text-align: center;
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
-@media only screen and (max-width: 640px){
-  .header-container{
-      width: 80%;
+@media only screen and (max-width: 640px) {
+  .header-container {
+    width: 80%;
   }
 
-  .header-container > p{
-      font-size: 1.2rem;
-      line-height: 1.2rem;
+  .header-container > p {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
   }
 }
