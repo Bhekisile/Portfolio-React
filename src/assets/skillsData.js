@@ -26,7 +26,7 @@ const skillList = [
   },
   {
     skillName: 'PostgresSQL',
-    skillUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/portfolio/src/assets/postgresSQL.jpeg?raw=true',
+    skillUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/portfolio/src/assets/postgresSQL.png?raw=true',
     skillIndex: 'skillIndex6',
   },
   {

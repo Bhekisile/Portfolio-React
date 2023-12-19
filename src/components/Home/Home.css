@@ -1,15 +1,16 @@
 .home-container {
-  background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.79%);
+  background: linear-gradient(39.97deg, #f0f8ff 0.79%, #72a0c1 79.79%);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow-y: auto;
+  /* overflow-y: auto; */
   padding: 100px 10%;
   box-sizing: border-box;
   min-height: 100vh;
-  margin-left: 15%;
+  /* margin-left: 15%; */
   margin-top: 0;
+  overflow-y: hidden;
 }
 
 .header-text {
@@ -51,7 +52,9 @@
 .btn {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: center;
+  background-color: #72a0c1;
+  color: #fff;
   padding: 0 36px;
   height: 52px;
   text-decoration: none;

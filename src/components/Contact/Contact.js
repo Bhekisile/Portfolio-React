@@ -2,7 +2,7 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import './Contact.css';
 import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
+// import Footer from '../Footer/Footer';
 // import contactVector from "./../../assets/contact_anime.png";
 import gitHub from '../../assets/gh.png';
 // import instaGram from "./../../assets/in.png";
@@ -22,9 +22,17 @@ function Contact() {
     <div className="section-container">
       <Header
         heading="Get in touch."
-        subHeading="Interested to collaborate? Feel free to drop me an email."
+        subHeading="I can help you build a product , feature or website. Look through some of my work and
+        experience! If you like what you see and have a project you need coded,
+        don&apos;t hesitate to contact me."
       />
-      {/* </Header> */}
+      <h4 className="text-center">
+        {/* I can help you build a product , feature or website Look through some of my work and
+        <br className="desktop" />
+        experience! If you like what you see and have a project you need coded,
+        <br />
+        don’t hesitate to contact me. */}
+      </h4>
       <div className="contact-form-container">
         {
             state.succeeded
@@ -42,7 +50,7 @@ function Contact() {
           <input
             type="email"
             className="input-box email-input"
-            placeholder="Your Email Id"
+            placeholder="Your Email Address"
             name="email"
             required
           />
@@ -122,11 +130,11 @@ function Contact() {
           <img src={instaGram} alt="instagram" loading="lazy" />
         </a> */}
       </div>
-      <Footer
+      {/* <Footer
         phrase="Read more "
         link="about me."
         toAddress="/about"
-      />
+      /> */}
       {/* <div className="vector-frame">
         <img
           src={contactVector}

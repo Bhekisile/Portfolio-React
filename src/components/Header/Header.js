@@ -1,7 +1,21 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import './Header.css';
 
-function Header() {
-  return <h1>Header</h1>;
-}
+const Header = ({ heading, subHeading }) => (
+  <div className="header-container">
+    <h1>
+      {heading}
+    </h1>
+    <p>
+      {subHeading}
+    </p>
+  </div>
+);
+
+Header.propTypes = {
+  heading: PropTypes.string.isRequired,
+  subHeading: PropTypes.string.isRequired,
+};
 
 export default Header;

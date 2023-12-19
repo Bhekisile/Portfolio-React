@@ -1,0 +1,9 @@
+.skills-header {
+  display: flex;
+  justify-content: center;
+}
+
+.framework {
+  display: flex;
+  justify-content: center;
+}
