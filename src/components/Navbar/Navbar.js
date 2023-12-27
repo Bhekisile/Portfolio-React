@@ -6,7 +6,6 @@ import * as AiIcons from 'react-icons/ai';
 import { IconContext } from 'react-icons';
 import SidebarData from './SidebarData';
 import './Navbar.css';
-// import Footer from '../Footer/Footer';
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);

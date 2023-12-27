@@ -6,8 +6,8 @@ import Footer from '../Footer/Footer';
 import contactVector from '../../assets/contact_anime.png';
 import gitHub from '../../assets/gh.png';
 import linkedIn from '../../assets/li.png';
-// import medium from '../../assets/me.png';
-// import web from "./../../assets/web.png";
+import medium from '../../assets/medium.png';
+import wellfound from '../../assets/wellfound.png';
 
 function Contact() {
   const [state, handleSubmit] = useForm('mpznvgqj');
@@ -86,22 +86,22 @@ function Contact() {
         >
           <img src={linkedIn} alt="linkedin" loading="lazy" />
         </a>
-        {/* <a
-          href="https://peerlist.io/anandbaraik"
+        <a
+          href="https://wellfound.com/profile/edit/overview"
           className="social-icon"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={web} alt="web" loading="lazy" />
-        </a> */}
-        {/* <a
-          href="https://medium.com/@anandbaraik"
+          <img src={wellfound} alt="web" loading="lazy" />
+        </a>
+        <a
+          href="https://medium.com/@bhekisilejozi"
           className="social-icon"
           target="_blank"
           rel="noreferrer"
         >
           <img src={medium} alt="medium" loading="lazy" />
-        </a> */}
+        </a>
       </div>
       <Footer
         phrase="Read more "

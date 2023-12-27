@@ -1,35 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
-// import homeAnime from "./../../assets/home_anime.gif"
-// import Modal from "./../Modal/Modal.jsx";
-// class Home extends Component {
+import ladyCartoon from '../../assets/lady-cartoon.jpeg';
 
-// state = {showModal:false};
-// componentDidMount(){
-//     setTimeout(() =>{
-//         this.setState({showModal:true});
-//     }, 2400);
-// }
-
-// closeModal = () => {
-//     this.setState({showModal:false});
-// }
-//   render() {
 function Home() {
   return (
     <div className="home-container">
-      {/* {this.state.showModal && <Modal closeModal={this.closeModal}/>} */}
       <div className="header-text">
         <h1>
           Welcome to my portfolio!
         </h1>
-        <p>
-          This is Bhekisile Jozi, a
+        <h2>
+          I&apos;m Bhekisile Jozi, a
           {' '}
           <u>Software Developer</u>
           .
-        </p>
+        </h2>
       </div>
       <div className="header-btns">
         <Link className="btn btn-white" to="/about">
@@ -39,9 +25,9 @@ function Home() {
           <p className="btn-text">Contact with me</p>
         </Link>
       </div>
-      {/* <div className="splash-image">
-        <img src={homeAnime} alt="animation" loading="lazy" className="home-anim" />
-      </div> */}
+      <div className="splash-image">
+        <img src={ladyCartoon} alt="Developer lady cartoon" loading="lazy" className="home-anim" />
+      </div>
     </div>
   );
 }

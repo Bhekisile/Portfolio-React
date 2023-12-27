@@ -1,8 +1,3 @@
-// import React from 'react';
-// import * as FaIcons from 'react-icons/fa6';
-// import * as AiIcons from 'react-icons/ai';
-// import * as IoIcons from 'react-icons/io';
-
 const SidebarData = [
   {
     title: 'Home',

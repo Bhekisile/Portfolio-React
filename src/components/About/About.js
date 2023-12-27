@@ -2,15 +2,14 @@ import React from 'react';
 import './About.css';
 import Header from '../Header/Header';
 import resume from '../../resume.pdf';
-// import Footer from "./../Footer/Footer.jsx"
-// import aboutVector from "./../../assets/about_vector.png";
-// import aboutAnime from "./../../assets/about_anime.gif";
+import Footer from '../Footer/Footer';
+import aboutVector from '../../assets/about_vector.png';
+
 function About() {
   return (
     <div className="section-container">
       <Header heading="About Me" subHeading="Software Developer" />
       <div className="about-main">
-        {/* <div className="about-main-left"> */}
         <p className="about-sub-heading-details">
           I&apos;m a
           <u> software developer</u>
@@ -19,28 +18,24 @@ function About() {
           work and experience! If you like what you see and have a project you need coded,
           don&apos;t hesitate to contact me.
         </p>
-        <a href={resume} download>
-          <button type="button" className="btn btn-about">
+        <button type="button" className="btn btn-about">
+          <a href={resume} download className="about-anchor">
             Download my resume
-          </button>
-        </a>
-        {/* </button> */}
-        {/* <h3 className="about-sub-heading">Blogger</h3>
-          <p className="about-sub-heading-details">
-            I've been writing blogs from around 3 years now, i used to write on Quora then i
-            moved to hashnode now. you can read my articles
-            {' '}
-            <a href="https://anandbaraik.hashnode.dev/" target="_blank" rel="noreferrer">here!</a>
-          </p> */}
-        {/* </div> */}
-        {/* <div className="about-main-right">
-          <img
-            src={aboutAnime}
-            alt="about-anime"
-            className="about-anime"
-            loading="lazy"
-          />
-        </div> */}
+          </a>
+        </button>
+      </div>
+      <Footer
+        phrase="Check out my "
+        link="projects!"
+        toAddress="/projects"
+      />
+      <div className="vector-frame">
+        <img
+          src={aboutVector}
+          alt="about"
+          className="about-vector"
+          loading="lazy"
+        />
       </div>
     </div>
   );
