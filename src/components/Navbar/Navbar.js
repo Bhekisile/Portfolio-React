@@ -10,10 +10,6 @@ import './Navbar.css';
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
 
-  // const showSidebar = useCallback(() => {
-  //   setSidebar(!sidebar);
-  // }, [sidebar]);
-
   const showSidebar = () => {
     setSidebar(!sidebar);
   };
@@ -24,12 +20,12 @@ function Navbar() {
 
   return (
     <>
+      <div className="navbar">
+        <Link to="/#" className="menu-bars">
+          <FaIcons.FaBars onClick={handleClick} />
+        </Link>
+      </div>
       <IconContext.Provider value={{ color: '#fff' }}>
-        <div className="navbar">
-          <Link to="/#" className="menu-bars">
-            <FaIcons.FaBars onClick={handleClick} />
-          </Link>
-        </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
           { /* eslint-disable */ }
           <ul className="nav-menu-items" onClick={handleClick} onKeyDown={handleClick}>

@@ -1,5 +1,4 @@
 .section-container {
-  /* margin-left: 15%; */
   display: flex;
   flex-direction: column;
 }
