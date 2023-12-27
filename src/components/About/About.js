@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 import Header from '../Header/Header';
+import resume from '../../resume.pdf';
 // import Footer from "./../Footer/Footer.jsx"
 // import aboutVector from "./../../assets/about_vector.png";
 // import aboutAnime from "./../../assets/about_anime.gif";
@@ -18,7 +19,12 @@ function About() {
           work and experience! If you like what you see and have a project you need coded,
           don&apos;t hesitate to contact me.
         </p>
-        <button className="btn" type="button">Get my resume</button>
+        <a href={resume} download>
+          <button type="button" className="btn btn-about">
+            Download my resume
+          </button>
+        </a>
+        {/* </button> */}
         {/* <h3 className="about-sub-heading">Blogger</h3>
           <p className="about-sub-heading-details">
             I've been writing blogs from around 3 years now, i used to write on Quora then i

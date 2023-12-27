@@ -2,17 +2,15 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import './Contact.css';
 import Header from '../Header/Header';
-// import Footer from '../Footer/Footer';
-// import contactVector from "./../../assets/contact_anime.png";
+import Footer from '../Footer/Footer';
+import contactVector from '../../assets/contact_anime.png';
 import gitHub from '../../assets/gh.png';
-// import instaGram from "./../../assets/in.png";
 import linkedIn from '../../assets/li.png';
-import medium from '../../assets/me.png';
+// import medium from '../../assets/me.png';
 // import web from "./../../assets/web.png";
-// import hashnode from "./../../assets/hashnode.png";
 
 function Contact() {
-  const [state, handleSubmit] = useForm('mdobenlw');
+  const [state, handleSubmit] = useForm('mpznvgqj');
   if (state.succeeded) {
     setTimeout(() => {
       document.getElementById('contact-form').reset();
@@ -22,23 +20,14 @@ function Contact() {
     <div className="section-container">
       <Header
         heading="Get in touch."
-        subHeading="I can help you build a product , feature or website. Look through some of my work and
-        experience! If you like what you see and have a project you need coded,
-        don&apos;t hesitate to contact me."
+        subHeading="I'm always interested in hearing about new projects, so if you'd like to chat please get in touch."
       />
-      <h4 className="text-center">
-        {/* I can help you build a product , feature or website Look through some of my work and
-        <br className="desktop" />
-        experience! If you like what you see and have a project you need coded,
-        <br />
-        don’t hesitate to contact me. */}
-      </h4>
       <div className="contact-form-container">
         {
             state.succeeded
             && (
             <div className="alert">
-              Thanks for the submission!
+              The form was submitted successfully!
             </div>
             )
         }
@@ -82,7 +71,7 @@ function Contact() {
       </div>
       <div className="social-icons-container">
         <a
-          href="https://github.com/anandbaraik"
+          href="https://github.com/Bhekisile"
           className="social-icon"
           target="_blank"
           rel="noreferrer"
@@ -90,7 +79,7 @@ function Contact() {
           <img src={gitHub} alt="github" loading="lazy" />
         </a>
         <a
-          href="https://www.linkedin.com/in/anandbaraik/"
+          href="https://www.linkedin.com/in/bhekisile-jozi/"
           className="social-icon"
           target="_blank"
           rel="noreferrer"
@@ -106,43 +95,27 @@ function Contact() {
           <img src={web} alt="web" loading="lazy" />
         </a> */}
         {/* <a
-          href="https://anandbaraik.hashnode.dev/"
-          className="social-icon"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={hashnode} alt="hashnode" loading="lazy" />
-        </a> */}
-        <a
           href="https://medium.com/@anandbaraik"
           className="social-icon"
           target="_blank"
           rel="noreferrer"
         >
           <img src={medium} alt="medium" loading="lazy" />
-        </a>
-        {/* <a
-          href="https://www.instagram.com/anand__babu/"
-          className="social-icon"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={instaGram} alt="instagram" loading="lazy" />
         </a> */}
       </div>
-      {/* <Footer
+      <Footer
         phrase="Read more "
         link="about me."
         toAddress="/about"
-      /> */}
-      {/* <div className="vector-frame">
+      />
+      <div className="vector-frame">
         <img
           src={contactVector}
           alt="contact"
           loading="lazy"
           className="about-vector"
         />
-      </div> */}
+      </div>
     </div>
   );
 }

@@ -1,17 +1,24 @@
 .navbar {
-  background: linear-gradient(39.97deg, #f0f8ff 0.79%, #72a0c1 79.79%);
+  /* background: linear-gradient(39.97deg, #f0f8ff 0.79%, #72a0c1 79.79%); */
 
-  /* background-color: #060b26; */
+  background-color: #060b26;
   height: 88px;
   display: flex;
   justify-content: start;
   align-items: center;
 }
 
+.nav-container {
+  height: 100vh;
+}
+
 .menu-bars {
   margin-left: 2rem;
   font-size: 2rem;
   background: none;
+  color: grey;
+
+  /* margin-top: 10rem; */
 }
 
 .nav-menu {
