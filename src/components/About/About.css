@@ -41,6 +41,8 @@
 }
 
 .btn-about {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
   margin: 80px auto;
   display: flex;
   flex-direction: column;
@@ -54,6 +56,12 @@
   top: 0;
   box-shadow: 0 4px 31px rgba(0, 0, 0, 0.15);
   border-radius: 36px;
+}
+
+.btn-about:hover {
+  box-shadow: 1px 10px 32px rgba(0, 0, 0, 0.45);
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
 }
 
 .about-anchor {
