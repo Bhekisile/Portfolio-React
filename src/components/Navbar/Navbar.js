@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
 import * as FaIcons from 'react-icons/fa6';
@@ -10,9 +10,13 @@ import './Navbar.css';
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
 
-  const showSidebar = useCallback(() => {
+  // const showSidebar = useCallback(() => {
+  //   setSidebar(!sidebar);
+  // }, [sidebar]);
+
+  const showSidebar = () => {
     setSidebar(!sidebar);
-  }, [sidebar]);
+  };
 
   const handleClick = () => {
     showSidebar();
@@ -45,7 +49,6 @@ function Navbar() {
           </ul>
         </nav>
       </IconContext.Provider>
-
     </>
   );
 }
