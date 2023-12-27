@@ -56,6 +56,7 @@
   top: 0;
   box-shadow: 0 4px 31px rgba(0, 0, 0, 0.15);
   border-radius: 36px;
+  transition: 1s;
 }
 
 .btn-about:hover {
