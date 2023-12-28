@@ -63,3 +63,10 @@
   justify-content: start;
   align-items: center;
 }
+
+@media only screen and (max-width: 640px) {
+  .nav-menu {
+    /* background-color: #060b26; */
+    width: 25%;
+  }
+}
