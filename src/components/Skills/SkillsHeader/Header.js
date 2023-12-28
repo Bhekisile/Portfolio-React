@@ -4,7 +4,7 @@ import './Header.css';
 function Header() {
   return (
     <div>
-      <h2 className="skills-header">My Skills</h2>
+      <h1 className="skills-header">My Skills</h1>
       <p className="framework">
         <strong>Frameworks:</strong>
         Rspec, Capybara and Selenium

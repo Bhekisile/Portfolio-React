@@ -1,9 +1,11 @@
 .skills-header {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .framework {
   display: flex;
   justify-content: center;
+  margin-bottom: 5px;
 }

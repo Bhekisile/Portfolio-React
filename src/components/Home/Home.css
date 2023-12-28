@@ -123,4 +123,12 @@ h1:hover {
   .header-btns {
     margin: 10px 10px 35px 10px;
   }
+
+  .header-text > h2 {
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+    color: #e5e5e5;
+    margin: 12px;
+    padding-bottom: 5px;
+  }
 }
