@@ -39,7 +39,7 @@ const projectsData = [
   {
     projectName: 'Space Travelers&apos; app',
     projectDescription: 'Space Travelers&apos; Hub is a web application designed to assist users in managing their rocket and mission reservations for space travel. The application aims to provide a platform where users can easily book and keep track of their reserved rockets and missions. Additionally, it offers a profile page feature where users can view the details of their reserved rockets and missions. This kind of application could be useful for space enthusiasts, scientists, or anyone interested in space travel.',
-    imageUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/portfolio/src/assets/budgetApp.png?raw=true',
+    imageUrl: 'https://raw.githubusercontent.com/Bhekisile/Portfolio-React/202605d82eb8576d1cd836d17dab77255a5e81bb/src/assets/space-travelers.png',
     projectUrl: 'https://spacetravelershub0x.netlify.app/',
     projectIndex: 'projectIndex5',
   },
