@@ -27,11 +27,20 @@ const projectsData = [
     projectUrl: 'https://recipeapp-sd71.onrender.com',
     projectIndex: 'projectIndex4',
   },
+  // {
+  //   projectName: 'Budget App',
+  //   projectDescription: 'This is a mobile web application where you can manage your budget.
+  // There is a list of transactions associated with the category, so that you can see how
+  // much money you spent and on what.',
+  //   imageUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/portfolio/src/assets/budgetApp.png?raw=true',
+  //   projectUrl: 'https://budgetapp-trdy.onrender.com',
+  //   projectIndex: 'projectIndex5',
+  // },
   {
-    projectName: 'Budget App',
-    projectDescription: 'This is a mobile web application where you can manage your budget. There is a list of transactions associated with the category, so that you can see how much money you spent and on what.',
+    projectName: 'Space Travelers&apos; app',
+    projectDescription: 'Space Travelers&apos; Hub is a web application designed to assist users in managing their rocket and mission reservations for space travel. The application aims to provide a platform where users can easily book and keep track of their reserved rockets and missions. Additionally, it offers a profile page feature where users can view the details of their reserved rockets and missions. This kind of application could be useful for space enthusiasts, scientists, or anyone interested in space travel.',
     imageUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/portfolio/src/assets/budgetApp.png?raw=true',
-    projectUrl: 'https://budgetapp-trdy.onrender.com',
+    projectUrl: 'https://spacetravelershub0x.netlify.app/',
     projectIndex: 'projectIndex5',
   },
   {

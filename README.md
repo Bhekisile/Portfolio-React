@@ -6,6 +6,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -31,7 +32,6 @@
 - **[React]**
 - **[CSS]**
 
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -39,6 +39,14 @@
 - **[Responsive website]**
 - **[Interactive links]**
 - **[Navigational menu]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://my-portfolio-wnqv.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
