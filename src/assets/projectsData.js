@@ -28,10 +28,10 @@ const projectsData = [
     projectIndex: 'projectIndex4',
   },
   {
-    projectName: 'Budget App',
-    projectDescription: 'This is a mobile web application where you can manage your budget. There is a list of transactions associated with the category, so that you can see how much money you spent and on what.',
-    imageUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/portfolio/src/assets/budgetApp.png?raw=true',
-    projectUrl: 'https://budgetapp-trdy.onrender.com',
+    projectName: 'Space Travelers app',
+    projectDescription: 'Space Travelers Hub is a web application designed to assist users in managing their rocket and mission reservations for space travel. The application aims to provide a platform where users can easily book and keep track of their reserved rockets and missions. Additionally, it offers a profile page feature where users can view the details of their reserved rockets and missions. This kind of application could be useful for space enthusiasts, scientists, or anyone interested in space travel.',
+    imageUrl: 'https://raw.githubusercontent.com/Bhekisile/Portfolio-React/202605d82eb8576d1cd836d17dab77255a5e81bb/src/assets/space-travelers.png',
+    projectUrl: 'https://spacetravelershub0x.netlify.app/',
     projectIndex: 'projectIndex5',
   },
   {
