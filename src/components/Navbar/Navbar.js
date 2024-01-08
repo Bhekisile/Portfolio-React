@@ -14,21 +14,18 @@ function Navbar() {
     setSidebar(!sidebar);
   };
 
-  const handleClick = () => {
-    showSidebar();
-  };
-
   return (
     <>
       <div className="navbar">
-        <Link to="/#" className="menu-bars">
-          <FaIcons.FaBars onClick={handleClick} />
+        { /* eslint-disable */ }
+        <Link to="#" className="menu-bars">
+          <FaIcons.FaBars onClick={showSidebar} />
         </Link>
       </div>
       <IconContext.Provider value={{ color: '#fff' }}>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
           { /* eslint-disable */ }
-          <ul className="nav-menu-items" onClick={handleClick} onKeyDown={handleClick}>
+          <ul className="nav-menu-items" onClick={showSidebar} onKeyDown={showSidebar}>
             <li className="navbar-toggle">
               <Link to="/#" className="menu-bars">
                 <AiIcons.AiOutlineClose />
