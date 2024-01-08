@@ -14,10 +14,6 @@ function Navbar() {
     setSidebar(!sidebar);
   };
 
-  // const handleClick = () => {
-  //   showSidebar();
-  // };
-
   return (
     <>
       <div className="navbar">
