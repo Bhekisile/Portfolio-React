@@ -22,6 +22,7 @@ function Projects() {
           projectDescription,
           imageUrl,
           projectUrl,
+          linkSource,
         }) => (
           <ProjectCard
             key={uuidv4()}
@@ -29,6 +30,7 @@ function Projects() {
             projectDescription={projectDescription}
             imageUrl={imageUrl}
             projectUrl={projectUrl}
+            linkSource={linkSource}
           />
         ))
       }

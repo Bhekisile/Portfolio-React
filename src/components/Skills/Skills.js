@@ -1,7 +1,7 @@
 import React from 'react';
 import './Skills.css';
 import { v4 as uuidv4 } from 'uuid';
-import Header from './SkillsHeader/Header';
+import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import skillsVector from '../../assets/skills_vector.png';
 import skillList from '../../assets/skillsData';
@@ -10,7 +10,12 @@ import SkillCard from './SkillCard';
 function Skills() {
   return (
     <div className="section-container">
-      <Header />
+      {/* <Header /> */}
+      <Header
+        heading="My Skills."
+        subHeading="Skills: Database Management, Version Control, Command Line Interface (CLI), Web Development and API Design;
+        Frameworks: RSpec, Capybara and Selenium"
+      />
       <div className="skill-card-container">
         {
         skillList.map(({ skillName, skillUrl }) => (

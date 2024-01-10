@@ -5,6 +5,8 @@
   padding: 44px;
   justify-content: center;
   align-items: center;
+  color: #060b26;
+  font-weight: 700;
 }
 
 .project-card {
@@ -60,7 +62,11 @@
   color: #7d7987;
 }
 
-.project-live-link {
+.project-view {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
   font-weight: 600;
   color: #4089ed;
 }

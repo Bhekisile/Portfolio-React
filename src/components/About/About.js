@@ -8,12 +8,11 @@ import aboutVector from '../../assets/about_vector.png';
 function About() {
   return (
     <div className="section-container">
-      <Header heading="About Me" subHeading="Software Developer" />
+      <Header heading="About Me" subHeading="Full-Stack Web Developer" />
       <div className="about-main">
         <p className="about-sub-heading-details">
           I&apos;m a
-          <u> software developer</u>
-          {' '}
+          FULL-STACK WEB DEVELOPER
           I can help you build a product , feature or website. Look through some of my
           work and experience! If you like what you see and have a project you need coded,
           don&apos;t hesitate to contact me.
