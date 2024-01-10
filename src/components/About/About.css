@@ -37,7 +37,7 @@
   margin: 10px 0;
   padding: 16px;
   border-radius: 15px;
-  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 .about-main {
@@ -108,10 +108,10 @@
   }
 
   .about-sub-heading-details {
-    font-size: 1.0rem;
+    font-size: 1rem;
     line-height: 1.2rem;
     width: 200px;
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
     margin-left: -30px;
   }
 
