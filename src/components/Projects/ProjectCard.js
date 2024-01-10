@@ -7,6 +7,7 @@ function ProjectCard(
     projectDescription,
     imageUrl,
     projectUrl,
+    linkSource,
   },
 ) {
   return (
@@ -33,14 +34,24 @@ function ProjectCard(
         <p className="project-details">
           {projectDescription}
         </p>
-        <a
-          href={projectUrl}
-          className="project-live-link"
-          target="_blank"
-          rel="noreferrer"
-        >
-          View live
-        </a>
+        <div className="project-view">
+          <a
+            href={projectUrl}
+            className="project-live-link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View live
+          </a>
+          <a
+            href={linkSource}
+            className="project-source-link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View source
+          </a>
+        </div>
       </div>
     </div>
   );
@@ -51,6 +62,7 @@ ProjectCard.propTypes = {
   projectDescription: PropTypes.isRequired,
   imageUrl: PropTypes.isRequired,
   projectUrl: PropTypes.isRequired,
+  linkSource: PropTypes.isRequired,
 };
 
 export default ProjectCard;
