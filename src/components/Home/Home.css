@@ -1,6 +1,6 @@
 .home-container {
   /* background: linear-gradient(39.97deg, #f0f8ff 0.79%, #72a0c1 79.79%); */
-  background-image: url();
+  background-image: url('https://raw.githubusercontent.com/Bhekisile/Portfolio-React/c94cbd33db195dba0c6e9935eb02a2921dee4ae2/src/assets/background.jpeg');
   display: flex;
   flex-direction: column;
   align-items: center;
