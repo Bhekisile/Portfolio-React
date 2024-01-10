@@ -6,7 +6,7 @@ import * as AiIcons from 'react-icons/ai';
 import { IconContext } from 'react-icons';
 import SidebarData from './SidebarData';
 import './Navbar.css';
-import logo from '../../assets/logo.jpeg';
+// import logo from '../../assets/logo.jpeg';
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
@@ -19,13 +19,12 @@ function Navbar() {
     <>
       <div className="navbar">
         <nav>
-          <img src={logo} alt="logo" />
+          {/* <img src={logo} alt="logo" /> */}
           <h1 className="logo-name">BJ</h1>
           <ul className="flex-horizontal">
             {SidebarData.map((item) => (
               <li key={uuidv4()} className={item.className}>
                 <Link to={item.path}>
-                  {item.icon}
                   <span>{item.title}</span>
                 </Link>
               </li>
