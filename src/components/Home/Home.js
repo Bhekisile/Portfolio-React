@@ -7,9 +7,6 @@ import hand from '../../assets/waving-hand.jpeg';
 function Home() {
   return (
     <div className="home-container">
-      {/* <h1>
-        Welcome to my portfolio!
-      </h1> */}
       <div className="flex-left">
         <div className="header-text">
           <div className="greeting-left">
@@ -26,7 +23,6 @@ function Home() {
           I have strong command over both front-end and
           back-end technologies, allowing me to build user-friendly applications.
         </p>
-        {/* </div> */}
         <div className="header-btns">
           <Link className="btn btn-white" to="/about">
             <p className="btn-text blue">Know more about me</p>
