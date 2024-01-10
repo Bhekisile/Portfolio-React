@@ -1,8 +1,9 @@
 .home-container {
-  /* background: linear-gradient(39.97deg, #f0f8ff 0.79%, #72a0c1 79.79%); */
-  background-image: url('https://raw.githubusercontent.com/Bhekisile/Portfolio-React/c94cbd33db195dba0c6e9935eb02a2921dee4ae2/src/assets/background.jpeg');
+  background: linear-gradient(39.97deg, #f0f8ff 0.79%, #72a0c1 79.79%);
+  /* background-image: url('https://raw.githubusercontent.com/Bhekisile/Portfolio-React/c94cbd33db195dba0c6e9935eb02a2921dee4ae2/src/assets/background.jpeg');
+  background-repeat: no-repeat; */
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   padding: 100px 10%;
@@ -12,15 +13,67 @@
   overflow-y: hidden;
 }
 
-.header-text {
+.flex-left {
+  width: 70%;
+  margin-left: 8%;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
 }
 
-h1 {
+.header-text {
+  display: flex;
+  /* flex-direction: column; */
+  text-align: center;
   transition: transform 1s;
+  width: 280px;
+  height: 80px;
+  padding: 12px 24px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-weight: 700;
+  color: #060b26;
+  /* margin-left: 8%; */
+  /* border: 1px solid black; */
 }
+
+.bio {
+  width: 350px;
+  height: 130px;
+  margin-top: 8%;
+  padding: 12px;
+  color: #060b26;
+  font-weight: 700;
+  border-radius: 10px;
+  word-spacing: 2px;
+  background-color: #72a0c1;
+  color: #fff;
+  line-height: 25px;
+  border: 1px solid #fff;
+}
+
+.blue {
+  color: #060b26;
+}
+
+.greeting-right {
+  margin-left: 10%;
+}
+
+.header-text img {
+  width: 50px;
+  height: 50px;
+}
+
+.header-text:hover {
+  transform: scale(1.1);
+}
+
+/* h1 {
+  transition: transform 1s;
+} */
 
 .header-text > h1 {
   font-family: 'Poppins', sans-serif;
@@ -84,15 +137,11 @@ h1 {
 .btn-text {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 0.2px;
   text-align: center;
-}
-
-h1:hover {
-  transform: scale(1.3);
 }
 
 .splash-image {
@@ -100,6 +149,7 @@ h1:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 30%;
 }
 
 .home-anim {
