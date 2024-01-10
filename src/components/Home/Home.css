@@ -144,6 +144,18 @@
   margin-bottom: -80px;
 }
 
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.icon1 {
+  width: 50px;
+  height: 50px;
+  margin-left: -290px;
+}
+
 /* For small height screen sizes */
 @media only screen and (max-height: 550px) {
   .home-anim {
@@ -181,5 +193,10 @@
     background: linear-gradient(39.97deg, #f0f8ff 0.79%, #72a0c1 79.79%);
     display: flex;
     flex-direction: column;
+  }
+
+  .icon1 {
+    margin-left: -200px;
+    margin-top: -50px;
   }
 }

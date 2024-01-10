@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import './Home.css';
 import ladyCartoon from '../../assets/lady-cartoon.jpeg';
 import hand from '../../assets/waving-hand.jpeg';
+import react from '../../assets/react-background.png';
+import ruby from '../../assets/ruby-nocolor.png';
 
 function Home() {
   return (
@@ -28,12 +30,14 @@ function Home() {
             <p className="btn-text blue">Know more about me</p>
           </Link>
           <Link className="btn btn-transparent" to="/contact">
-            <p className="btn-text">Contact with me</p>
+            <p className="btn-text">Contact me</p>
           </Link>
         </div>
       </div>
       <div className="splash-image">
+        <img src={react} alt="React icons" className="icon" />
         <img src={ladyCartoon} alt="Developer lady cartoon" loading="lazy" className="home-anim" />
+        <img src={ruby} alt="Ruby icons" className="icon1" />
       </div>
     </div>
   );
