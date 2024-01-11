@@ -10,7 +10,7 @@ function Projects() {
   return (
     <div className="section-container">
       <Header
-        heading="My Projects."
+        heading="My Projects"
         subHeading="I can help you build a product , feature or website. Look through some of my work and
         experience! If you like what you see and have a project you need coded,
         don&apos;t hesitate to contact me."

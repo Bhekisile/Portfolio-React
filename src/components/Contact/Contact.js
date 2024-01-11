@@ -19,7 +19,7 @@ function Contact() {
   return (
     <div className="section-container">
       <Header
-        heading="Get in touch."
+        heading="Get in touch"
         subHeading="I'm always interested in hearing about new projects, so if you'd like to chat please get in touch."
       />
       <div className="contact-form-container">
