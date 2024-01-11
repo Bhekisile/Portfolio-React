@@ -12,10 +12,9 @@ function About() {
       <div className="about-main">
         <p className="about-sub-heading-details">
           I&apos;m a
-          FULL-STACK WEB DEVELOPER
-          I can help you build a product , feature or website. Look through some of my
-          work and experience! If you like what you see and have a project you need coded,
-          don&apos;t hesitate to contact me.
+          full-stack web developer, with a passion for crafting efficient software
+          solutions. I have strong command over both front-end and back-end technologies,
+          allowing me to deliver exceptional user experiences.
         </p>
         <button type="button" className="btn btn-about">
           <a href={resume} download className="about-anchor">

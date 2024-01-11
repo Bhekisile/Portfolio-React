@@ -10,9 +10,8 @@ import SkillCard from './SkillCard';
 function Skills() {
   return (
     <div className="section-container">
-      {/* <Header /> */}
       <Header
-        heading="My Skills."
+        heading="My Skills"
         subHeading="Skills: Database Management, Version Control, Command Line Interface (CLI), Web Development and API Design;
         Frameworks: RSpec, Capybara and Selenium"
       />

@@ -21,9 +21,10 @@ function Home() {
         </div>
         <p className="bio">
           I&apos;m a
-          <span> FULL-STACK WEB DEVELOPER. </span>
-          I have strong command over both front-end and
-          back-end technologies, allowing me to build user-friendly applications.
+          <span> full-stack web developer. </span>
+          I can help you build a product , feature or website. Look through some of my
+          work and experience! If you like what you see and have a project you need coded,
+          don&apos;t hesitate to contact me.
         </p>
         <div className="header-btns">
           <Link className="btn btn-white" to="/about">
