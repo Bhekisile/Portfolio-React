@@ -126,5 +126,5 @@ I would like to thank everyone who makes this project to be a success and Microv
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](./MIT.md) licensed.
 
