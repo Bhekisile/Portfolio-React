@@ -10,7 +10,7 @@ const projectsData = [
   {
     projectName: 'Space Travelers app',
     projectDescription: 'Space Travelers Hub is a web application designed to assist users in managing their rocket and mission reservations for space travel. The application aims to provide a platform where users can easily book and keep track of their reserved rockets and missions. Additionally, it offers a profile page feature where users can view the details of their reserved rockets and missions. This kind of application could be useful for space enthusiasts, scientists, or anyone interested in space travel.',
-    imageUrl: '',
+    imageUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/logo-spin/src/assets/spaceTravelers.png?raw=true',
     projectUrl: 'https://spacetravelershub0x.netlify.app/',
     linkSource: 'https://github.com/Bupilipili/Space-Travelers-Hub',
     projectIndex: 'projectIndex2',
@@ -18,7 +18,7 @@ const projectsData = [
   {
     projectName: 'Stock Screener',
     projectDescription: 'This is a metric website containing data or parameters used for stock screening. It displays a list of companies from all over the world with the corresponding parameters and values. The user can filter the application by company\'s name. It is more beneficial to those who search for stocks. The data is extracted from the Financial Modeling Prep API.',
-    imageUrl: '',
+    imageUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/logo-spin/src/assets/stockScreener.png?raw=true',
     projectUrl: 'https://stock-screener-7lyx.onrender.com',
     linkSource: 'https://github.com/Bhekisile/Metrics-webapp',
     projectIndex: 'projectIndex3',
@@ -34,7 +34,7 @@ const projectsData = [
   {
     projectName: 'Fictional University',
     projectDescription: 'This is a library project that allows the addition and removal of books. It uses the Luxon library to display dates and times. It is a website that contains add-on books, book lists, and contact details pages.',
-    imageUrl: '',
+    imageUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/logo-spin/src/assets/fictionalUniversity.png?raw=true',
     projectUrl: 'http://fictional-university.local/',
     linkSource: 'https://github.com/Bhekisile/Fictional-University',
     projectIndex: 'projectIndex5',
