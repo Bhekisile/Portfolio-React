@@ -46,7 +46,7 @@ const skillList = [
   },
   {
     skillName: 'Mongodb',
-    skillUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/logo-spin/src/assets/mongodb.png',
+    skillUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/portfolio/src/assets/mongodb.png?raw=true',
     skillIndex: 'skillIndex10',
   },
   {
