@@ -12,5 +12,5 @@ export default function SkillCard({ skillName, skillUrl }) {
 
 SkillCard.propTypes = {
   skillName: PropTypes.string.isRequired,
-  skillUrl: PropTypes.isRequired,
+  skillUrl: PropTypes.string.isRequired,
 };

@@ -39,6 +39,11 @@ const skillList = [
     skillUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/portfolio/src/assets/rails.png?raw=true',
     skillIndex: 'skillIndex8',
   },
+  {
+    skillName: 'NodeJS',
+    skillUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/portfolio/src/assets/nodejs.png?raw=true',
+    skillIndex: 'skillIndex9',
+  },
 ];
 
 export default skillList;
