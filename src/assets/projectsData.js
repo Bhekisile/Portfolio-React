@@ -2,7 +2,7 @@ const projectsData = [
   {
     projectName: 'College of Science, Engineering and Technology 2023',
     projectDescription: 'The project is about the College of Science Department at the University of South Africa. The navigation bar is the feature I like the most; it takes you to the section you want. There are courses, lectures, and sponsorship sections.',
-    imageUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/portfolio/src/assets/capsHome.png?raw=true',
+    imageUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/portfolio/src/assets/universitySA.png?raw=true',
     projectUrl: 'https://bhekisile.github.io/capstone-project/',
     linkSource: 'https://github.com/Bhekisile/capstone-project',
     projectIndex: 'projectIndex1',
