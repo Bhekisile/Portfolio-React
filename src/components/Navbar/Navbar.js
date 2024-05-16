@@ -6,7 +6,6 @@ import * as AiIcons from 'react-icons/ai';
 import { IconContext } from 'react-icons';
 import SidebarData from './SidebarData';
 import './Navbar.css';
-// import logo from '../../assets/logo.jpeg';
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
@@ -19,7 +18,6 @@ function Navbar() {
     <>
       <div className="navbar">
         <nav>
-          {/* <img src={logo} alt="logo" /> */}
           <h1 className="logo-name">BJ</h1>
           <ul className="flex-horizontal">
             {SidebarData.map((item) => (
@@ -36,7 +34,7 @@ function Navbar() {
           <FaIcons.FaBars onClick={showSidebar} />
         </Link>
       </div>
-      <IconContext.Provider value={{ color: '#fff' }}>
+      <IconContext.Provider value={{ color: '#faf9f6' }}>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
           { /* eslint-disable */ }
           <ul className="nav-menu-items" onClick={showSidebar} onKeyDown={showSidebar}>

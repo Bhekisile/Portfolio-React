@@ -24,7 +24,7 @@
 }
 
 .input-box {
-  background: #fff;
+  background: #faf9f6;
   width: 100%;
   border: 1px solid #e8e8e8;
   box-sizing: border-box;
@@ -45,7 +45,7 @@
 .contact-btn {
   margin: 10px 0;
   border: none;
-  color: #fff;
+  color: #faf9f6;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -55,7 +55,7 @@
   text-align: center;
   padding: 17px 35px;
   border-radius: 35px;
-  background: linear-gradient(39.97deg, #f0f8ff 0.79%, #72a0c1 79.29%);
+  background: linear-gradient(39.97deg, #f0f8ff 0.79%, #6b6473 79.29%);
 }
 
 .social-icons-container {
@@ -93,6 +93,6 @@
   padding: 10px;
   font-size: 0.875rem;
   background-color: hsl(250deg 69% 61%);
-  color: #fff;
+  color: #faf9f6;
   border-radius: 1.1rem;
 }

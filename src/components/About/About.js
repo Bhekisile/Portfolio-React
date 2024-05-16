@@ -10,7 +10,7 @@ function About() {
     <div className="section-container">
       <Header heading="About Me" subHeading="Full-Stack Web Developer" />
       <div className="about-main">
-        <p className="about-sub-heading-details">
+        <p id="no-background" className="about-sub-heading-details">
           I&apos;m a
           full-stack web developer, with a passion for crafting efficient software
           solutions. I have strong command over both front-end and back-end technologies,

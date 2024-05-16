@@ -12,7 +12,7 @@
 .project-card {
   width: 500px;
   min-height: 550px;
-  background: #fff;
+  background: #faf9f6;
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
   border-radius: 20px;
   display: flex;
@@ -68,7 +68,7 @@
   justify-content: space-between;
   width: 100%;
   font-weight: 600;
-  color: #4089ed;
+  color: #6b6473;
 }
 
 @media only screen and (max-width: 640px) {

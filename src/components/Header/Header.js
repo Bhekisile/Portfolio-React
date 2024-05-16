@@ -7,7 +7,7 @@ const Header = ({ heading, subHeading }) => (
     <h1>
       {heading}
     </h1>
-    <p>
+    <p id="no-background">
       {subHeading}
     </p>
   </div>

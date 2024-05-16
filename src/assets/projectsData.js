@@ -33,7 +33,7 @@ const projectsData = [
   },
   {
     projectName: 'Fictional University',
-    projectDescription: 'This is a library project that allows the addition and removal of books. It uses the Luxon library to display dates and times. It is a website that contains add-on books, book lists, and contact details pages.',
+    projectDescription: 'This project is about university activity, it contains lecturers and the modules related to them. The students can register their credentials and start using this app. Liking of the professors is available only for the login user.',
     imageUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/logo-spin/src/assets/fictionalUniversity.png?raw=true',
     projectUrl: 'http://fictional-university.local/',
     linkSource: 'https://github.com/Bhekisile/Fictional-University',
@@ -41,27 +41,11 @@ const projectsData = [
   },
   {
     projectName: 'Complex App',
-    projectDescription: 'This is a library project that allows the addition and removal of books. It uses the Luxon library to display dates and times. It is a website that contains add-on books, book lists, and contact details pages.',
-    imageUrl: '',
+    projectDescription: 'This is a great project for those who want to create posts, and chat with other users. The users can follow or unfollow each other. It only allows the person who created the post to edit and delete, other users can only read but not modify post they have not created.',
+    imageUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/logo-spin/src/assets/complexApp.png?raw=true',
     projectUrl: 'https://nodejscomplex-app.onrender.com',
     linkSource: 'https://github.com/Bhekisile/Complex-app',
     projectIndex: 'projectIndex6',
-  },
-  {
-    projectName: 'Awesome Books',
-    projectDescription: 'This is a library project that allows the addition and removal of books. It uses the Luxon library to display dates and times. It is a website that contains add-on books, book lists, and contact details pages.',
-    imageUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/portfolio/src/assets/awesomeBook.png?raw=true',
-    projectUrl: 'https://bhekisile.github.io/Awesome_books/',
-    linkSource: 'https://github.com/Bhekisile/Awesome_books',
-    projectIndex: 'projectIndex7',
-  },
-  {
-    projectName: 'To Do List',
-    projectDescription: 'To-do-list is a list of tasks that need to be completed. The user can add, edit, and delete the task and each task is rendered dynamically on page load. The project uses webpack to bundle JavaScript files.',
-    imageUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/portfolio/src/assets/todo.png?raw=true',
-    projectUrl: 'https://bhekisile.github.io/To-do-list/dist/',
-    linkSource: 'https://github.com/Bhekisile/To-do-list',
-    projectIndex: 'projectIndex8',
   },
 ];
 
