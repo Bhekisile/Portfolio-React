@@ -39,6 +39,26 @@ const skillList = [
     skillUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/portfolio/src/assets/rails.png?raw=true',
     skillIndex: 'skillIndex8',
   },
+  {
+    skillName: 'NodeJS',
+    skillUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/1f9812d4ab3c4f6311f53accac8e698317e43d42/src/assets/nodejs.png?raw=true',
+    skillIndex: 'skillIndex9',
+  },
+  {
+    skillName: 'Mongodb',
+    skillUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/1f9812d4ab3c4f6311f53accac8e698317e43d42/src/assets/mongodb.png?raw=true',
+    skillIndex: 'skillIndex10',
+  },
+  {
+    skillName: 'Express',
+    skillUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/1f9812d4ab3c4f6311f53accac8e698317e43d42/src/assets/express.png?raw=true',
+    skillIndex: 'skillIndex11',
+  },
+  {
+    skillName: 'WordPress',
+    skillUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/1f9812d4ab3c4f6311f53accac8e698317e43d42/src/assets/wordpress.png?raw=true',
+    skillIndex: 'skillIndex11',
+  },
 ];
 
 export default skillList;

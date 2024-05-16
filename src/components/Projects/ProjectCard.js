@@ -59,10 +59,10 @@ function ProjectCard(
 
 ProjectCard.propTypes = {
   projectName: PropTypes.string.isRequired,
-  projectDescription: PropTypes.isRequired,
-  imageUrl: PropTypes.isRequired,
-  projectUrl: PropTypes.isRequired,
-  linkSource: PropTypes.isRequired,
+  projectDescription: PropTypes.string.isRequired,
+  imageUrl: PropTypes.string.isRequired,
+  projectUrl: PropTypes.string.isRequired,
+  linkSource: PropTypes.string.isRequired,
 };
 
 export default ProjectCard;
