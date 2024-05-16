@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
+import resume1 from '../../assets/resume1.pdf';
 import Header from '../Header/Header';
-import resume from '../../resume.pdf';
 import Footer from '../Footer/Footer';
 import aboutVector from '../../assets/about_vector.png';
 
@@ -17,7 +17,7 @@ function About() {
           allowing me to deliver exceptional user experiences.
         </p>
         <button type="button" className="btn btn-about">
-          <a href={resume} download className="about-anchor">
+          <a href={resume1} download className="about-anchor">
             Download my resume
           </a>
         </button>

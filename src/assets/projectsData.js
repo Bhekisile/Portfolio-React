@@ -34,14 +34,14 @@ const projectsData = [
   {
     projectName: 'Fictional University',
     projectDescription: 'This project is about university activity, it contains lecturers and the modules related to them. The students can register their credentials and start using this app. Liking of the professors is available only for the login user.',
-    imageUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/logo-spin/src/assets/fictionalUniversity.png?raw=true',
+    imageUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/logo-spin/src/assets/fictionalUni.png?raw=true',
     projectUrl: 'http://fictional-university.local/',
     linkSource: 'https://github.com/Bhekisile/Fictional-University',
     projectIndex: 'projectIndex5',
   },
   {
     projectName: 'Complex App',
-    projectDescription: 'This is a great project for those who want to create posts, and chat with other users. The users can follow or unfollow each other. It only allows the person who created the post to edit and delete, other users can only read but not modify post they have not created.',
+    projectDescription: 'The app enables users to create posts, chat, and follow each other. The user must log in in order to have access to creating and modifying the post. The user can chat with other users and be able to read the posts of those he follows.',
     imageUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/logo-spin/src/assets/complexApp.png?raw=true',
     projectUrl: 'https://nodejscomplex-app.onrender.com',
     linkSource: 'https://github.com/Bhekisile/Complex-app',
