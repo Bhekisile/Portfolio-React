@@ -19,7 +19,7 @@ const projectsData = [
     projectName: 'Stock Screener',
     projectDescription: 'This is a metric website containing data or parameters used for stock screening. It displays a list of companies from all over the world with the corresponding parameters and values. The user can filter the application by company\'s name. It is more beneficial to those who search for stocks. The data is extracted from the Financial Modeling Prep API.',
     imageUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/logo-spin/src/assets/stockScreener.png?raw=true',
-    projectUrl: 'https://stock-screener-7lyx.onrender.com',
+    projectUrl: 'https://metricsstock.netlify.app/',
     linkSource: 'https://github.com/Bhekisile/Metrics-webapp',
     projectIndex: 'projectIndex3',
   },
