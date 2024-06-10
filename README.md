@@ -46,7 +46,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://my-portfolio-wnqv.onrender.com/)
+- [Live Demo Link](https://portfolio-react-green-xi.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
