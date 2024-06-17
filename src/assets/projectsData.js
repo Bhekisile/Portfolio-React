@@ -43,7 +43,7 @@ const projectsData = [
     projectName: 'Complex App',
     projectDescription: 'The app enables users to create posts, chat, and follow each other. The user must log in in order to have access to creating and modifying the post. The user can chat with other users and be able to read the posts of those he follows.',
     imageUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/logo-spin/src/assets/complexApp.png?raw=true',
-    projectUrl: 'https://nodejscomplex-app.onrender.com',
+    projectUrl: 'https://complex-app-production.up.railway.app/',
     linkSource: 'https://github.com/Bhekisile/Complex-app',
     projectIndex: 'projectIndex6',
   },
