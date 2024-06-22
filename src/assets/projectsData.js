@@ -27,7 +27,7 @@ const projectsData = [
     projectName: 'Recipe App',
     projectDescription: 'This project will help you keep track of all your recipes and ingredients. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow you to make them public so anyone can access them.',
     imageUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/portfolio/src/assets/recipeApp.png?raw=true',
-    projectUrl: 'https://recipeapp-sd71.onrender.com',
+    projectUrl: 'https://recipe-app-production-d0e5.up.railway.app/',
     linkSource: 'https://github.com/Bhekisile/Recipe-app',
     projectIndex: 'projectIndex4',
   },
