@@ -24,7 +24,7 @@
 # 📖 [Portfolio React] <a name="about-project"></a>
 
 
-**[Portfolio React]** is my portfolio built by React. It is a responsive website consists of four sections: About me, projects, skills and contacts details. 
+**[Portfolio React]** is a project built with React. It is a single page application consists of four sections: About me, projects, skills and contacts details and it's responsive. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
