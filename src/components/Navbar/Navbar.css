@@ -1,0 +1,123 @@
+.navbar {
+  height: 1px;
+  color: #060b26;
+}
+
+nav {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 100px;
+}
+
+.flex-horizontal {
+  display: flex;
+  margin: 0 auto;
+  color: #060b26;
+}
+
+.logo-name {
+  color: #faf9f6;
+  font-family: Papyrus, fantasy;
+  font-weight: 700;
+  font-size: 40px;
+  height: 80px;
+  width: 100px;
+  padding: 12px;
+  border-radius: 40px;
+  border: 1px solid #faf9f6;
+  background-color: #6b6473;
+}
+
+nav img {
+  background: none;
+  width: 80px;
+  height: 80px;
+}
+
+.menu-bars {
+  display: none;
+}
+
+.nav-menu {
+  background-color: #060b26;
+  width: 15%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+  padding-left: 10px;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #060b26;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: #7d7987;
+}
+
+.nav-menu-items {
+  width: 100%;
+  padding-left: 0;
+}
+
+.navbar-toggle {
+  background-color: #060b26;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media only screen and (max-width: 640px) {
+  .nav-menu {
+    background-color: #060b26;
+    width: 25%;
+  }
+
+  .nav-text a {
+    padding: 0 8px;
+    color: #f5f5f5;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .menu-bars {
+    display: block;
+    color: #060b26;
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+    position: fixed;
+    width: 36px;
+    height: 36px;
+    top: 32px;
+  }
+}

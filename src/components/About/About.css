@@ -1,0 +1,127 @@
+.section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #060b26;
+  font-weight: 600;
+  padding-top: 12px;
+  background: linear-gradient(39.97deg, #f0f8ff 0.79%, #aaa8ac 79.79%);
+}
+
+#no-background {
+  background-color: #faf9f6;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  align-self: center;
+}
+
+.about-sub-heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.9rem;
+  line-height: 57px;
+  text-align: center;
+  margin: 0;
+  color: #000;
+  letter-spacing: 0.2px;
+}
+
+.about-sub-heading-details {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  text-align: center;
+  margin: 10px 0;
+  padding: 16px;
+  border-radius: 15px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.about-main {
+  width: 50%;
+  padding: 63px 32px;
+}
+
+.btn-about {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #6b6473;
+  color: #faf9f6;
+  padding: 0 36px;
+  height: 52px;
+  text-decoration: none;
+  left: 0;
+  top: 0;
+  box-shadow: 0 4px 31px #faf9f6;
+  border-radius: 36px;
+  transition: 1s;
+  border: 1px solid #faf9f6;
+}
+
+.btn-about:hover {
+  box-shadow: 1px 10px 32px rgba(0, 0, 0, 0.45);
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+
+.about-anchor {
+  text-decoration: none;
+  color: #faf9f6;
+}
+
+.vector-frame {
+  position: absolute;
+  z-index: -10;
+  left: 0;
+  bottom: 0;
+  width: 55%;
+}
+
+.about-vector {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media only screen and (max-width: 640px) {
+  .section-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .vector-frame {
+    width: 90%;
+  }
+
+  .btn-about {
+    line-height: 14px;
+  }
+
+  .about-sub-heading-details {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    width: 200px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    margin-left: -30px;
+  }
+
+  .about-main {
+    width: 50%;
+    padding: 37px 32px;
+  }
+}
