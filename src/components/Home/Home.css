@@ -46,7 +46,8 @@
   border: 1px solid #faf9f6;
 }
 
-.blue, .greeting-right {
+.blue,
+.greeting-right {
   color: #707070;
   font-weight: 700;
 }
