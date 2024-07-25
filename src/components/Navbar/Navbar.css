@@ -1,6 +1,6 @@
 .navbar {
   height: 1px;
-  color: #060b26;
+  color: #585858;
 }
 
 nav {
@@ -12,7 +12,7 @@ nav {
 .flex-horizontal {
   display: flex;
   margin: 0 auto;
-  color: #060b26;
+  color: #585858;
 }
 
 .logo-name {
@@ -66,7 +66,7 @@ nav img {
 
 .nav-text a {
   text-decoration: none;
-  color: #060b26;
+  color: #585858;
   font-size: 18px;
   width: 95%;
   height: 100%;
@@ -111,7 +111,7 @@ nav img {
 
   .menu-bars {
     display: block;
-    color: #060b26;
+    color: #585858;
     margin-left: 2rem;
     font-size: 2rem;
     background: none;

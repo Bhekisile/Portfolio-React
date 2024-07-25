@@ -6,7 +6,8 @@
   color: #060b26;
   font-weight: 600;
   padding-top: 12px;
-  background: linear-gradient(39.97deg, #f0f8ff 0.79%, #aaa8ac 79.79%);
+  /* background: linear-gradient(39.97deg, #f0f8ff 0.79%, #aaa8ac 79.79%); */
+  background: #f5f5f5;
 }
 
 #no-background {
@@ -39,6 +40,8 @@
   font-size: 1.2rem;
   line-height: 1.8rem;
   text-align: center;
+  color: #707070;
+  font-weight: 700;
   margin: 10px 0;
   padding: 16px;
   border-radius: 15px;
