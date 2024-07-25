@@ -15,10 +15,6 @@
   margin-bottom: 20px;
 }
 
-.skillName {
-  
-}
-
 .skill > img {
   object-fit: contain;
   width: 108px;
@@ -30,12 +26,10 @@
 .skill > p {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  /* font-weight: normal; */
   font-style: normal;
   font-size: 16px;
   text-align: center;
   line-height: 36px;
-  /* color: #000; */
   letter-spacing: -0.015rem;
   color: #707070;
   font-weight: 700;
