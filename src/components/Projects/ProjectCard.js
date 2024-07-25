@@ -31,6 +31,7 @@ function ProjectCard(
         <h2 className="project-heading">
           {projectName}
         </h2>
+        <br />
         <p className="project-details">
           {projectDescription}
         </p>

@@ -12,7 +12,7 @@
 .project-card {
   width: 500px;
   min-height: 550px;
-  background: #faf9f6;
+  background: #f5f5f5;
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
   border-radius: 20px;
   display: flex;
@@ -53,13 +53,15 @@
 
 .project-heading {
   margin: 0;
+  font-weight: 700;
+  color: #707070;
 }
 
 .project-details {
-  font-weight: 300;
+  font-weight: 600;
   font-size: 16px;
   line-height: 25px;
-  color: #7d7987;
+  color: #707070;
 }
 
 .project-view {
@@ -68,6 +70,11 @@
   justify-content: space-between;
   width: 100%;
   font-weight: 600;
+  color: #6b6473;
+}
+
+.project-live-link,
+.project-source-link {
   color: #6b6473;
 }
 
