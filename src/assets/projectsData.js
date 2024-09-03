@@ -16,11 +16,12 @@ const projectsData = [
     projectIndex: 'projectIndex3',
   },
   {
-    projectName: 'The Wild Oasis',
-    projectDescription: 'The application is about hotel management built with NextJS. The users (admins / hotel employees) can manage bookings, cabins and guests. Anyone can use the app but if you want to make bookings or to access more features you will need to sign up and login. The supabase is used to store data.',
-    imageUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/addProjects/src/assets/The_Wild.png?raw=true',
-    projectUrl: 'https://next-js-oasis-website-demo.vercel.app/account',
-    linkSource: 'https://github.com/Bhekisile/NextJS-Oasis',
+    projectName: 'ProShop',
+    projectDescription: 'This is an e-commerce website where customers can search for the product and purchase it online. It is an end-to-end application with a seamless user experience and interactions. An admin manages the application and has CRUD access. It authorizes and authenticates users, allowing them to place an order after authentication and have access to their own account.',
+    // imageUrl: ,
+    // 'https://github.com/Bhekisile/Portfolio-React/blob/addProjects/src/assets/The_Wild.png?raw=true',
+    projectUrl: 'https://proshop-q9dt.onrender.com/',
+    linkSource: 'https://github.com/Bhekisile/proshop',
     projectIndex: 'projectIndex1',
   },
   {
