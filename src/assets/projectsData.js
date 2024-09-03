@@ -18,8 +18,7 @@ const projectsData = [
   {
     projectName: 'ProShop',
     projectDescription: 'This is an e-commerce website where customers can search for the product and purchase it online. It is an end-to-end application with a seamless user experience and interactions. An admin manages the application and has CRUD access. It authorizes and authenticates users, allowing them to place an order after authentication and have access to their own account.',
-    // imageUrl: ,
-    // 'https://github.com/Bhekisile/Portfolio-React/blob/addProjects/src/assets/The_Wild.png?raw=true',
+    imageUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/addProject/src/assets/proshop.png',
     projectUrl: 'https://proshop-q9dt.onrender.com/',
     linkSource: 'https://github.com/Bhekisile/proshop',
     projectIndex: 'projectIndex1',
