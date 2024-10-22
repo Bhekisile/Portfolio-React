@@ -41,9 +41,9 @@ const projectsData = [
   },
   {
     projectName: 'Complex App',
-    projectDescription: 'The project is built with Node.js, Express, MangoDB, and Socket.io. It enables users to create posts, chat, and follow each other. The user must log in, in order to have access to creating and modifying the post. The user can chat with other users and be able to read the posts of those he follows.',
+    projectDescription: 'The project is built with Node.js, Express, MongoDB, SendGrid, and Socket.io. It enables users to create posts, chat, send email, and follow each other. The user must log in, in order to have access to creating and modifying the post. The user can chat with other users and be able to read the posts of those he follows.',
     imageUrl: 'https://github.com/Bhekisile/Portfolio-React/blob/logo-spin/src/assets/complexApp.png?raw=true',
-    projectUrl: 'https://complex-app-production.up.railway.app/',
+    projectUrl: 'https://jscoursecomplex-app.onrender.com',
     linkSource: 'https://github.com/Bhekisile/Complex-app',
     projectIndex: 'projectIndex6',
   },

@@ -24,7 +24,7 @@
 # 📖 [Portfolio React] <a name="about-project"></a>
 
 
-**[Portfolio React]** is a project built with React. It is a single page application consists of four sections: About me, projects, skills and contacts details and it's responsive. 
+**[Portfolio React]** is a single page, responsive application built with React and native CSS. It consists of four sections: About me, projects, skills and contacts details. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
